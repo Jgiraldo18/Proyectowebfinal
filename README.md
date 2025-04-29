@@ -17,7 +17,7 @@ Diseñar y desarrollar una plataforma web que facilite la comunicación entre ps
 
 La página web de Psicología Web busca conectar a usuarios con profesionales del área de forma clara y efectiva. Incluye funcionalidades como el registro y gestión de citas, secciones informativas sobre salud mental, datos de contacto y un diseño intuitivo. El proyecto fue desarrollado usando tecnologías web como HTML, CSS, JavaScript y PHP, con conexión a base de datos MySQL para el manejo de la información.
 
-## 🔧 Tecnologías utilizadas
+* Tecnologías utilizadas
 
 - HTML5
 - CSS3
