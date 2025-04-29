@@ -23,8 +23,7 @@ La página web de Psicología Web busca conectar a usuarios con profesionales de
 - CSS3
 - JavaScript
 - PHP
-- MySQL
-- XAMPP (para entorno local)
+
 
 * Estructura del proyecto
 * /Psicologiaweb │ ├── index.html ├── contacto.html ├── servicios.html ├── registrar.php ├── editar.php ├── eliminar.php ├── css/ │ └── estilos.css ├── js/ │ └── scripts.js └── db/ └── conexion.php
