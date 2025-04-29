@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacientes - Psicología Integral</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Psicología Integral</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="pacientes.html">Pacientes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="pacientes">
+            <h1>Registro de Pacientes</h1>
+
+            <form id="formularioPaciente">
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+                <input type="number" id="edad" placeholder="Edad" required>
+                <input type="text" id="motivo" placeholder="Motivo de consulta" required>
+                <button type="submit">Registrar Paciente</button>
+            </form>
+
+            <h2>Lista de Pacientes Registrados</h2>
+            <ul id="listaPacientes">
+                <!-- Aquí se mostrarán los pacientes -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Psicología Integral. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

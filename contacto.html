@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Psicología Integral</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">Psicología Integral</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="pacientes.html">Pacientes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <section class="contacto">
+            <h1>Contáctanos</h1>
+
+            <form id="formularioContacto">
+                <input type="text" id="nombreContacto" placeholder="Nombre completo" required>
+                <input type="email" id="emailContacto" placeholder="Correo electrónico" required>
+                <textarea id="mensajeContacto" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+
+            <div id="mensajeExito" style="display:none; text-align: center; color: green; margin-top: 20px;">
+                ¡Gracias por contactarnos! Te responderemos pronto.
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Psicología Integral. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/contacto.js"></script>
+
+</body>
+</html>
